@@ -1,12 +1,10 @@
 import React from "react";
-import { View } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import Following from "./pages/Following";
 import CommingSoon from "./pages/CommingSoon";
 import { Ionicons, MaterialCommunityIcons } from "@expo/vector-icons";
 import colors from "./styles/colors";
-import { color } from "react-native-reanimated";
 
 const { Navigator, Screen } = createBottomTabNavigator();
 
